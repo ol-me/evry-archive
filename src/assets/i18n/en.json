@@ -1,3 +1,8 @@
 {
-  "title": "Total archive"
+  "title": "Total archive",
+  "common.header.systemToolbar.logOut": "Log out",
+  "common.header.systemToolbar.bank": "Bank",
+  "common.header.portalMenu.selectApplication": "Select an application you want to switch to",
+  "common.header.systemToolbar.language": "Language",
+  "common.header.systemToolbar.openHelp": "Help"
 }

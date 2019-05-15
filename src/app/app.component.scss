@@ -5,24 +5,14 @@
   width: 100%;
   height: 100%;
   min-width: 1050px;
-  display: flex;
   line-height: 1;
 }
 
-app-navbar#navbar {
-  font-size: 12px;
-  position: fixed;
-  width: 220px;
-  box-sizing: border-box;
-  background-color: #1b1c1d;
-  color: rgba(255, 255, 255, 0.9);
-  overflow: auto;
-  height: 100%;
-}
 
 section#main-section {
   margin-left: 100px;
   width: 100%;
   height: 100%;
   padding: 20px;
+  display: block;
 }

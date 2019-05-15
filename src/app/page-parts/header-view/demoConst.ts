@@ -173,6 +173,11 @@ export const Languages = {
 
 export const Applications = [
   {
+    title: "Totalarkiv",
+    permission: "GPP_IPRACCESS",
+    url: "/page-parts/header-view",
+  },
+  {
     title: "Current URI",
     permission: "GPP_IPRACCESS",
     url: "/page-parts/header-view",

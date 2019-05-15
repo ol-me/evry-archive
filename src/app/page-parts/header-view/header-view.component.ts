@@ -10,16 +10,19 @@ import {take} from "rxjs/internal/operators";
 })
 export class HeaderViewComponent {
 
-  constructor( private headerService: HeaderService, private store: Store<any>) {}
+  constructor( private headerService: HeaderService, private store: Store<any>) {
+    this.setPreconditions();
+  }
 
   setPreconditions() {
     this.headerService.setUserAuthenticationFlag(true);
+    this.headerService.setCurrentApp(Applications[0]);
     this.headerService.setUserName('John Smith');
     this.headerService.setUserBanks(Banks[15]);
     this.headerService.setUserLanguages(Object.keys(['en', 'no']));
     this.headerService.setOnOpenHelpCallback(() => console.log('Help me!'));
     this.headerService.makeVisible();
-  }
+     }
 
   showADNHeader() {
 

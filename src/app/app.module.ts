@@ -15,7 +15,6 @@ import { TranslateModule } from '@ngx-translate/core'
 // components
 import { EvryCommonModule } from '@ngx-evry/evry-common';
 import { AppComponent } from './app.component';
-import { ShowHtmlComponent } from './show-html/show-html.component';
 import { HeaderViewComponent } from './page-parts/header-view/header-view.component';
 import { FooterViewComponent } from './page-parts/footer-view/footer-view.component';
 import { headerReducer } from '@ngx-evry/evry-common';
@@ -33,7 +32,6 @@ import { EVRY_ARCHIVE_ROUTES } from './app.routing';
 @NgModule({
   declarations: [
     AppComponent,
-    ShowHtmlComponent,
     HeaderViewComponent,
     FooterViewComponent
   ],
