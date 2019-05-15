@@ -1,0 +1,16 @@
+<notification></notification>
+<show-html [data]="html"></show-html>
+
+<form [formGroup]="homePageForm" (ngSubmit)="onSubmit()" formHolder="true">
+
+  <div class="form-row">
+    <label class="col-2 col-form-label" translate>Number Integer</label>
+    <div class="col-6">
+      <input type="text" class="form-control" formControlName="numberInteger" formatNumber name="numberInteger">
+      <validators-error [form]="homePageForm" name="numberInteger" label="common.label"></validators-error>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Save</button>
+  <validators-error [form]="homePageForm" name="required"></validators-error>
+</form>
